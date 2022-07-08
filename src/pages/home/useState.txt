@@ -1,2 +1,3 @@
 O que é um Hook? vem da abordagem funcional, antes era usado classes no react, hj é tudo function
 O useState é usado pra controlar o ESTADO de uma variavel dentro do nosso projetinho fellas
+ a
