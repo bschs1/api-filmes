@@ -1,0 +1,3 @@
+da pra fazer um destructuring no objeto MOVIE assim:
+const {title, poster_path, overview, release_date } = data
+eai poderiamos apagar a parte dentro do objeto que tem data, apagar a palavra data do objeto pq ela ja ta declarada ali fora

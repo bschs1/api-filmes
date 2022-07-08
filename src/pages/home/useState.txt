@@ -1,3 +1,18 @@
-O que é um Hook? vem da abordagem funcional, antes era usado classes no react, hj é tudo function
+O que é um Hook? vem da abordagem funcional, antes era usado classes no react, hj é tudo function.
+
+
 O useState é usado pra controlar o ESTADO de uma variavel dentro do nosso projetinho fellas
- a
+começamos a usar o state assim:   const[movies, setMovies] = useState([]), um array vazio, que vai receber os movies (vindo da api vem uma lista) e o 
+setMovies vai alterar o estado.
+o primeiro elemendo do array [movies, setMovies], o useState vai retonar 2 variaveis, uma que armazena o estado sendo a variavel movies
+e uma variavel que altera o estado sendo ela: setMovies (convenção esse nome).
+
+
+
+useEffect:
+O useEffect é usado pra lidar com efeitos colaterais dentro da nossa aplicação, um dos efeitos coltaerias pode ser consumir um dado de uma fonte externa
+usa-se 2 parametros, 
+O primeiro sendo uma função ( o que vamos fazer )
+O segundo é um array de dependencias. EX: na pagina de detalhes do filme, toda vez que o ID do filme mudar precisamos recarregar as infos (isso é uma dependencia, toda vez que o id muda = recarregamos a info), quanto o array está vazio, ele vai consumir a api toda vez que o componente for recarregado (um f5 por ex), ele vai puxar o primeiro parametro do useEffect(a function)
+
+

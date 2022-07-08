@@ -28,6 +28,8 @@ export const Movie = styled.li`
 
   span {
     font-weight: bold;
+    font-size: 120%;
+    text-align: center;
   }
 
   a {
