@@ -1,8 +1,8 @@
 import { Container, MovieList, Movie } from './styles';
+import { APIKey } from '../../config/APIKey';
+import { useState } from 'react';
 
 function Home() {
-  
-
   return (
     <Container>
       <h1>Movies</h1>
@@ -17,10 +17,11 @@ function Home() {
             </Movie>
           );
         })}
-
       </MovieList>
     </Container>
   );
 }
 
 export default Home;
+
+
