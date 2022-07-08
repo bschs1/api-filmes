@@ -8,6 +8,8 @@
 # testing
 /coverage
 /src/config
+/src/pages/Details/index.txt
+/src/pages/Home/useState.txt
 
 # production
 /build
